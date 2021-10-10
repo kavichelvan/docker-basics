@@ -1,0 +1,6 @@
+docker login
+docker images
+docker tag my-httpd-image kavichelvan/ecs-ec2:first-tag
+docker push kavichelvan/ecs-ec2:first-tag
+docker push kavichelvan/ecs-ec2:tagname
+Docker pull kavichelvan/ecs-ec2:tagname
